@@ -12,7 +12,7 @@ export const EventDate = () => {
                 >
                     <p style={{ fontFamily: "'Marck Script', cursive" }} className="font-extrabold text-3xl text-gray-800 mb-2">Дорогие гости,</p>
                     <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light mb-6">
-                        мы приглашаем вас разделить с нами радостный день, в который мы станем семьёй!
+                        мы приглашаем Вас разделить с нами радостный день, в который мы станем семьёй!
                     </p>
 
                     <div className="flex justify-center">

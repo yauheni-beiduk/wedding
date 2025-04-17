@@ -31,20 +31,19 @@ const App = () => {
     return (
         <div className="w-full overflow-y-auto">
 
-            <div className="fixed top-4 right-4 z-50 flex items-center gap-2 bg-white/80 px-3 py-2 rounded-full shadow backdrop-blur-md">
-                <button
-                    onClick={playAudio}
-                    title="Включить музыку"
-                    className="text-gray-800 hover:scale-110 transition"
-                >
-                    <BsMusicNoteBeamed className="text-2xl" />
-                </button>
+            <div
+                className="fixed top-4 right-4 z-50 flex items-center gap-2 bg-white/80 px-3 py-2 rounded-full shadow backdrop-blur-md cursor-pointer hover:scale-105 transition"
+                onClick={playAudio}
+                title="Включить музыку"
+            >
+                <BsMusicNoteBeamed className="text-2xl text-gray-800" />
                 {showLabel && (
                     <span className="text-sm text-gray-700 font-light animate-fade-in">
-            Нажми меня 🎵
-          </span>
+      Нажми меня 🎵
+                    </span>
                 )}
             </div>
+
 
             {/* Скрытый аудиофайл */}
             <audio ref={audioRef} preload="auto" loop>
@@ -101,7 +100,7 @@ const App = () => {
                         </p>
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">
                             Кажется, что совсем недавно мы делали свои первые шаги, а уже сегодня
-                            приглашаем вас стать свидетелями важного события в нашей жизни!
+                            приглашаем Вас стать свидетелями важного события в нашей жизни!
                         </p>
                     </div>
                 )}
@@ -215,7 +214,7 @@ const App = () => {
                         <h2 style={{ fontFamily: "'Marck Script', cursive" }} className="font-extrabold text-3xl text-gray-800 mb-6">Пожелания</h2>
 
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">
-                            Пожалуйста, подтвердите своё присутствие до <strong>1 мая</strong>,<br />
+                            Пожалуйста, подтвердите своё присутствие до <span className="font-bold">1 мая</span>,<br />
                             чтобы мы могли планировать нашу свадьбу наилучшим образом!
                         </p>
                     </div>
