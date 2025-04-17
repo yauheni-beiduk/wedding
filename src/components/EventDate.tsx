@@ -11,12 +11,12 @@ export const EventDate = () => {
                     } transform`}
                 >
                     <p style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-gray-800 mb-2">Дорогие гости,</p>
-                    <p style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-black font-light mb-6">
+                    <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light mb-6">
                         мы приглашаем вас разделить с нами радостный день, в который мы станем семьёй!
                     </p>
 
                     <div className="flex justify-center">
-                        <div className="grid grid-cols-7 gap-2 text-sm font-medium">
+                        <div className="text-xl grid grid-cols-7 gap-2 text-sm font-medium">
                             {['15', '16', '17', '18', '19', '20', '21'].map((day) => {
                                 const isSpecial = ['19', '20', '21'].includes(day);
                                 return (
@@ -44,7 +44,7 @@ export const EventDate = () => {
                         </div>
                     </div>
 
-                    <p className="text-xs mt-2">Сентябрь 2025</p>
+                    <p className="text-lg mt-2">Сентябрь 2025</p>
                 </div>
             )}
         </AnimatedSection>

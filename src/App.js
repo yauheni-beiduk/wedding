@@ -4,7 +4,7 @@ import nikaPng from "./img/nika.jpg";
 import {Love} from "./components/Love.tsx";
 import {AnimatedSection} from "./components/AnimatedSection.tsx";
 import nowImg from "./img/nowImg.JPG";
-import nowAgainImg from "./img/nowAgainImg.JPG";
+import imggory from "./img/imggory.JPG";
 import {EventDate} from "./components/EventDate.tsx";
 import { FaInstagram } from 'react-icons/fa';
 import { BsMusicNoteBeamed } from 'react-icons/bs';
@@ -96,10 +96,10 @@ const App = () => {
                             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                         } transform`}
                     >
-                        <p style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-black font-light mb-4">
+                        <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light mb-4">
                             Эти милые малыши — это мы в детстве!
                         </p>
-                        <p style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-black font-light">
+                        <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">
                             Кажется, что совсем недавно мы делали свои первые шаги, а уже сегодня
                             приглашаем вас стать свидетелями важного события в нашей жизни!
                         </p>
@@ -118,7 +118,7 @@ const App = () => {
           ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'} translate-y-2`}
                         />
                         <img
-                            src={nowAgainImg}
+                            src={imggory}
                             alt="Ника"
                             className={`absolute mt-52 right-0 w-52 sm:w-64 rounded-xl shadow-lg transition-all duration-1000 ease-out
           ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'} translate-y-6`}
@@ -137,7 +137,7 @@ const App = () => {
                         }`}
                     >
                         <h2 className="text-3xl text-gray-800 mb-4" style={{ fontFamily: "'Marcellus SC', serif" }} >Тайминг</h2>
-                        <p style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-lg text-black font-light">14:00 — сбор на Вилле</p>
+                        <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">14:00 — сбор на Вилле</p>
                     </div>
                 )}
             </AnimatedSection>
@@ -151,11 +151,11 @@ const App = () => {
                     >
                         <h2 style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-center text-gray-800 mb-6">Локация</h2>
 
-                        <p style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-black text-center font-light mb-8">
+                        <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black text-center font-light mb-8">
                             Свадьба будет в стиле вечеринки второго дня!<br />
                             Праздник будет проходить в солнечном Батуми, на потрясающей Вилле
                             «Golden Sunset Batumi”<br />
-                            <span className="text-sm">(купальники обязательно)☝️</span>
+                            <span className="text-lg">(купальники обязательно)☝️</span>
                         </p>
 
                         <div className="flex flex-row justify-between items-center gap-10">
@@ -169,7 +169,7 @@ const App = () => {
                                 >
                                     Локация
                                 </a>
-                                <span style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-xs text-gray-500 mt-1">нажми меня</span>
+                                <span style={{ fontFamily: "'Marck Script', cursive" }} className="text-lg text-gray-500 mt-1">нажми меня</span>
                             </div>
 
                             {/* Instagram Icon */}
@@ -183,7 +183,7 @@ const App = () => {
                                 >
                                     <FaInstagram />
                                 </a>
-                                <span style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-xs text-gray-500 mt-1">нажми меня</span>
+                                <span style={{ fontFamily: "'Marck Script', cursive" }} className="text-lg text-gray-500 mt-1">нажми меня</span>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@ const App = () => {
                     >
                         <h2 style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-gray-800 mb-6">Дресс-код</h2>
 
-                        <p style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-black font-light mb-12">
+                        <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light mb-12">
                             Мы просим воздержаться от ярких цветов и броских принтов.<br />
                             Будем очень рады, если Вы отдадите предпочтение спокойным и пастельным тонам!
                         </p>
@@ -214,7 +214,7 @@ const App = () => {
 
                         <h2 style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-gray-800 mb-6">Пожелания</h2>
 
-                        <p style={{ fontFamily: "'La Belle Aurore', cursive" }} className="text-black font-light">
+                        <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">
                             Пожалуйста, подтвердите своё присутствие до <strong>1 мая</strong>,<br />
                             чтобы мы могли планировать нашу свадьбу наилучшим образом!
                         </p>
