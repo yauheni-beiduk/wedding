@@ -10,7 +10,7 @@ export const EventDate = () => {
                         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     } transform`}
                 >
-                    <p style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-gray-800 mb-2">Дорогие гости,</p>
+                    <p style={{ fontFamily: "'Marck Script', cursive" }} className="font-extrabold text-3xl text-gray-800 mb-2">Дорогие гости,</p>
                     <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light mb-6">
                         мы приглашаем вас разделить с нами радостный день, в который мы станем семьёй!
                     </p>
@@ -44,7 +44,7 @@ export const EventDate = () => {
                         </div>
                     </div>
 
-                    <p className="text-lg mt-2">Сентябрь 2025</p>
+                    <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-lg mt-2">Сентябрь 2025</p>
                 </div>
             )}
         </AnimatedSection>

@@ -74,8 +74,8 @@ const App = () => {
                 {/* Date with wavy underline */}
                 <div className="mt-10 relative">
                     <p
-                        className="text-2xl font-semibold text-gray-600"
-                        style={{ fontFamily: "'Pacifico', cursive" }}
+                        className="text-2xl font-semibold"
+                        style={{ fontFamily: "'Marck Script', cursive" }}
                     >
                         19.09.2025
                         <span className="absolute bottom-[-4px] left-0 w-full h-2 wave-line"></span>
@@ -84,7 +84,7 @@ const App = () => {
 
                 {/* Phrase "уже догадались?" at the very bottom in burgundy */}
                 <div className="absolute bottom-10 w-full text-center">
-                    <p className="text-3xl text-amber-950" style={{ fontFamily: "'Marcellus SC', serif" }}>
+                    <p className="text-3xl font-extrabold text-amber-950" style={{ fontFamily: "'Marck Script', cursive" }}>
                         Уже догадались?
                     </p>
                 </div>
@@ -136,7 +136,7 @@ const App = () => {
                             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                         }`}
                     >
-                        <h2 className="text-3xl text-gray-800 mb-4" style={{ fontFamily: "'Marcellus SC', serif" }} >Тайминг</h2>
+                        <h2 className="font-extrabold text-3xl text-gray-800 mb-4" style={{ fontFamily: "'Marck Script', cursive" }} >Тайминг</h2>
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">14:00 — сбор на Вилле</p>
                     </div>
                 )}
@@ -149,7 +149,7 @@ const App = () => {
                             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                         }`}
                     >
-                        <h2 style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-center text-gray-800 mb-6">Локация</h2>
+                        <h2 style={{ fontFamily: "'Marck Script', cursive" }} className="font-extrabold text-3xl text-center text-gray-800 mb-6">Локация</h2>
 
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black text-center font-light mb-8">
                             Свадьба будет в стиле вечеринки второго дня!<br />
@@ -164,7 +164,7 @@ const App = () => {
                                     href="https://maps.app.goo.gl/4brgWjMmeHq8dPrBA?g_st=com.google.maps.preview.copy"
                                     target="_blank"
                                     rel="noreferrer"
-                                    style={{ fontFamily: "'La Belle Aurore', cursive" }}
+                                    style={{ fontFamily: "'Marck Script', cursive" }}
                                     class="bg-orange-100 hover:bg-orange-200 text-gray-900 font-semibold py-2 px-6 rounded-xl shadow transition"
                                 >
                                     Локация
@@ -197,7 +197,7 @@ const App = () => {
                             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                         }`}
                     >
-                        <h2 style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-gray-800 mb-6">Дресс-код</h2>
+                        <h2 style={{ fontFamily: "'Marck Script', cursive" }} className="font-extrabold text-3xl text-gray-800 mb-6">Дресс-код</h2>
 
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light mb-12">
                             Мы просим воздержаться от ярких цветов и броских принтов.<br />
@@ -212,7 +212,7 @@ const App = () => {
                         </div>
 
 
-                        <h2 style={{ fontFamily: "'Marcellus SC', serif" }} className="text-3xl text-gray-800 mb-6">Пожелания</h2>
+                        <h2 style={{ fontFamily: "'Marck Script', cursive" }} className="font-extrabold text-3xl text-gray-800 mb-6">Пожелания</h2>
 
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">
                             Пожалуйста, подтвердите своё присутствие до <strong>1 мая</strong>,<br />
