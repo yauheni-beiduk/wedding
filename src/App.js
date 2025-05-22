@@ -214,7 +214,7 @@ const App = () => {
                         <h2 style={{ fontFamily: "'Marck Script', cursive" }} className="font-extrabold text-3xl text-gray-800 mb-6">Пожелания</h2>
 
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black font-light">
-                            Пожалуйста, подтвердите своё присутствие до <span className="font-bold">1 мая</span>,<br />
+                            Пожалуйста, подтвердите своё присутствие до <span className="font-bold">1 июня</span>,<br />
                             чтобы мы могли планировать нашу свадьбу наилучшим образом!
                         </p>
                     </div>
