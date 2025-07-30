@@ -160,7 +160,7 @@ const App = () => {
                         <div className="flex flex-row justify-between items-center gap-10">
                             <div className="flex flex-col items-center sm:items-start">
                                 <a
-                                    href="https://maps.app.goo.gl/4brgWjMmeHq8dPrBA?g_st=com.google.maps.preview.copy"
+                                    href="https://maps.app.goo.gl/iNRi219JD4fQbFdNA?g_st=it"
                                     target="_blank"
                                     rel="noreferrer"
                                     style={{ fontFamily: "'Marck Script', cursive" }}
