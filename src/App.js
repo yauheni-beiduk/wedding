@@ -1,6 +1,6 @@
 import './App.css';
 import zhenyaImg from "./img/zhenya.JPG";
-import nikaPng from "./img/nika.jpg";
+import nikaPng from "src/img/nika.JPG";
 import {Love} from "./components/Love.tsx";
 import {AnimatedSection} from "./components/AnimatedSection.tsx";
 import nowImg from "./img/nowImg.JPG";
