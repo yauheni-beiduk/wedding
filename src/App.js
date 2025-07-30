@@ -152,8 +152,8 @@ const App = () => {
 
                         <p style={{ fontFamily: "'Marck Script', cursive" }} className="text-xl text-black text-center font-light mb-8">
                             Свадьба будет в стиле вечеринки второго дня!<br />
-                            Праздник будет проходить в солнечном Батуми, на потрясающей Вилле
-                            «Golden Sunset Batumi”<br />
+                            Праздник будет проходить в тропическом Квариати, на потрясающей Вилле
+                            «VILLA Evkalipt Kvariati”<br />
                             <span className="text-lg">(купальники обязательно)☝️</span>
                         </p>
 
@@ -174,7 +174,7 @@ const App = () => {
                             {/* Instagram Icon */}
                             <div className="flex flex-col items-center sm:items-end">
                                 <a
-                                    href="https://www.instagram.com/golden_sunset_batumi?igsh=MW02OTk3Z2wxeDk0cg=="
+                                    href="https://www.instagram.com/_villa_evkalipt_kvariati_?igsh=c2k0cXlhODdnbXht"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="text-pink-600 hover:text-pink-700 transition text-4xl"
